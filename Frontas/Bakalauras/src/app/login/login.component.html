@@ -1,0 +1,35 @@
+<body>
+    <app-main-navbar style="overflow:hidden" class="app-main-navbar"></app-main-navbar>
+    <div class="container">
+        <div class="formBackground">
+            <div class="login-content">
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                    <img src="../../assets/undraw_profile_pic_ic5t.svg">
+                    <h2 class="title" style="color: white;">Login</h2>
+                    <div class="input-div one" >
+                        <div class="i">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="div" formGroupName="Username">
+                            <h5>Username</h5>
+                            <input (focus)="inputAnimation()" formControlName="username" type="text" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <div class="div" formGroupName="Password">
+                            <h5>Password</h5>
+                            <input (focus)="inputAnimation()" formControlName="password" type="password" class="input">
+                        </div>
+                    </div>
+                    <div *ngIf="incorrect" style="display: flex; justify-content: center; align-items: center;">
+                        <h4 style="color: tomato;">Bad crediantials</h4>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

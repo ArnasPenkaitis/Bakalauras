@@ -1,0 +1,65 @@
+<body>
+    <app-main-navbar style="overflow:hidden"></app-main-navbar>
+    <div class="container">
+        <div class="formBackground">
+            <div class="login-content">
+                <form [formGroup]="registerForm" (ngSubmit)="register()">
+                    <img src="../../assets/undraw_profile_pic_ic5t.svg">
+                    <h2 class="title" style="color: white;">Register</h2>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="div" formGroupName="Username">
+                            <h5>Username</h5>
+                            <input on-focus="inputAnimation()" formControlName="username" type="text" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <div class="div" formGroupName="Password">
+                            <h5>Password</h5>
+                            <input on-focus="inputAnimation()" formControlName="password" type="password" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="div" formGroupName="Name">
+                            <h5>Name</h5>
+                            <input on-focus="inputAnimation()" formControlName="name" type="text" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="div" formGroupName="Surname">
+                            <h5>Surname</h5>
+                            <input on-focus="inputAnimation()" formControlName="surname" type="text" class="input">
+                        </div>
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="div" formGroupName="Email">
+                            <h5>Email</h5>
+                            <input on-focus="inputAnimation()" formControlName="email" type="text" class="input">
+                        </div>
+                    </div>
+                    <div *ngIf="badCrediantials" style="display: flex; justify-content: center; align-items: center;">
+                        <h4 style="color: tomato;">Form crediantials cannot be empty.</h4>
+                    </div>
+                    <div *ngIf="alreadyTaken" style="display: flex; justify-content: center; align-items: center;">
+                        <h4 style="color: tomato;">Username is already taken by another user.</h4>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

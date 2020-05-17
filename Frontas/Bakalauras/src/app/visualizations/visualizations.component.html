@@ -1,0 +1,35 @@
+<body>
+    <app-home-navbar></app-home-navbar>
+    <div style="width: 100vw; height: 100vh; display: flex; flex-direction: row;">
+        <div class="backgroundas" style="display: flex; width: 30%; flex-direction: column; align-items: center;">
+            <ul>
+                <li>
+                    <span>Visualizations</span>
+                </li>
+                <li class="content-cr" style="padding-top: 0; padding-bottom: 0; height: 40px; padding-left: 30px;">
+                    <input class="searchBox" type="text" #myInput placeholder="Search..." (input)="filterItem(myInput.value)">
+                </li>
+            </ul>
+            <ul style="margin: 200px auto 0;">
+                <li [@Fading] class="content-li" *ngFor="let visualization of filteredItems; let i = index"
+                    [class.active]="i == selectedRowI"
+                    (click)="LoadVisualization(visualization); setClickedRowAll(i);">
+                    <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
+                        <span>{{visualization.name}}</span>
+                        <i style="position: absolute; right: 0; margin-right: 60px; z-index: 3;" class="fa fa-edit" (click)="openDialog(visualization,$event);"></i>
+                        <i style="position: absolute; right: 0; margin-right: 30px; z-index: 3;"
+                            class="fa fa-trash" (click)="deleteVisualization(visualization,$event)"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div style=" height: 100vh; outline: none; width: 70%; top: 10vh; padding-top: 64px;" class="backgroundas">
+            <model-viewer src="{{path}}" auto-rotate camera-controls auto-rotate magic-leap
+                style="background-color: unset; outline: none;">
+            </model-viewer>
+        </div>
+    </div>
+    <div class="fab" (click)="openDialogCreate($event)" >
+        <i style="font-size: 3.5rem;" class="fa fa-plus"></i>
+    </div>
+</body>

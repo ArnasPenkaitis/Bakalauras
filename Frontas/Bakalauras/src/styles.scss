@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import "~@angular/material/theming";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@include mat-core();
+
+$Bakalauras-primary: mat-palette($mat-indigo);
+$Bakalauras-accent: mat-palette($mat-pink, A200, A100, A400);
+
+$Bakalauras-warn: mat-palette($mat-red);
+
+$Bakalauras-theme: mat-light-theme($Bakalauras-primary, $Bakalauras-accent, $Bakalauras-warn);
+
+@include angular-material-theme($Bakalauras-theme);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+*:not(i){
+    font-family: "Roboto" !important;
+}
+
+.mat-dialog-container {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 0 !important;
+}
+
+.container {
+    outline: none;
+}
+model-viewer:focus {
+    outline: none;
+}
+model-viewer:focus-visible {
+    outline: none;
+}
+
+.mat-spinner {
+    width: 4vh !important; 
+    height: 4vh !important  ;
+}
+
+.mat-spinner > *{
+    width: 4vh !important; 
+    height: 4vh !important;
+}
+.mat-progress-spinner circle, .mat-spinner circle{
+    stroke: white !important;
+}
+// @font-face {
+//     font-family: 'sequel';
+//     src: url('./assets/FirstInLine-1VzB.ttf');
+// }
+// *:not(i) {
+//     font-family: sequel !important;
+//   }

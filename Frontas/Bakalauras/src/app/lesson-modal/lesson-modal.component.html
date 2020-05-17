@@ -1,0 +1,33 @@
+<div class="formBackground">
+    <div class="login-content">
+        <form [formGroup]="lessonForm" (ngSubmit)="createLesson()">
+            <img src="../../assets/undraw_certification_aif8.svg">
+            <h2 class="title" style="color: white;">Create Lesson</h2>
+            <div class="input-div one">
+                <div class="i">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="div" formGroupName="Name">
+                    <h5>Name (15 symbols)</h5>
+                    <input (focus)="inputAnimation()" formControlName="name" type="text" class="input">
+                </div>
+            </div>
+            <div class="input-div one">
+                <div class="i">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="div" formGroupName="Abbreviation">
+                    <h5>Abbreviation (5 symbols)</h5>
+                    <input (focus)="inputAnimation()" formControlName="abbreviation" type="text" class="input">
+                </div>
+            </div>
+            <div [@Fading] *ngIf="incorrect" style="display: flex; justify-content: center; align-items: center;">
+                <h4 style="color: tomato;">Inputs can't be empty.</h4>
+            </div>
+            <div [@Fading] *ngIf="tooLong" style="display: flex; justify-content: center; align-items: center;">
+                <h4 style="color: tomato;">Some inputs are too long.</h4>
+            </div>
+            <button type="submit" class="btn">Create</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,102 @@
+<head>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <app-home-navbar></app-home-navbar>
+    <div style="grid-row: 1/2; " class="backgroundas">
+        <div class="gridClass">
+            <div [@FadingHeaders]>
+                <ul>
+                    <li>
+                        <span>Subjects</span>
+                    </li>
+                    <li class="content-cr" (click)="openDialog();">
+                        <span>Create Subject</span>
+                    </li>
+                </ul>
+                <ul style="margin: 190px auto 0;">
+                    <li [@Fading] class="content-li" *ngFor="let subject of SubjectList; let i = index"
+                        [class.active]="i == selectedRowI" (click)="SelectedSubject(subject); setClickedRowSubject(i);">
+                        <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
+                            <span>{{subject.name}}</span>
+                            <i style="position: absolute; right: 0; margin-right: 60px; z-index: 3;" class="fa fa-edit"
+                                (click)="openDialogSubjectUpdate(subject,$event)"></i>
+                            <i style="position: absolute; right: 0; margin-right: 30px; z-index: 3;" class="fa fa-trash"
+                                (click)="deleteSubject(subject,$event)"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div *ngIf="SubjectSelected" [@FadingHeaders]>
+                <ul>
+                    <li>
+                        <span>Lessons</span>
+                    </li>
+                    <li class="content-cr" (click)="openDialogLesson();">
+                        <span>Create Lesson</span>
+                    </li>
+                </ul>
+                <ul style="margin: 190px auto 0;">
+                    <li [@Fading] class="content-li" *ngFor="let lesson of LessonList; let y = index"
+                        [class.active]="y == selectedRowY" (click)="SelectedLesson(lesson); setClickedRowLesson(y);">
+                        <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
+                            <span
+                                style="position: absolute; left: 0; margin-left: 30px; ">{{lesson.abbreviation}}</span>
+                            <span>{{lesson.name}}</span>
+                            <i style="position: absolute; right: 0; margin-right: 60px; z-index: 3;" class="fa fa-edit"
+                                (click)="openDialogLessonUpdate(lesson,$event)"></i>
+                            <i style="position: absolute; right: 0; margin-right: 30px; z-index: 3;" class="fa fa-trash"
+                                (click)="deleteLesson(lesson,$event)"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div *ngIf="LessonSelected" [@FadingHeaders]>
+                <ul>
+                    <li>
+                        <span>Selected Visualizations</span>
+                    </li>
+                </ul>
+                <ul style="margin: 145px auto 0">
+
+                    <li [@Fading] class="content-li"
+                        *ngFor="let selectedVisualization of SelectedVisualizationsList; let z = index"
+                        [class.active]="z == selectedRowZ && fromSelected"
+                        (click)="LoadVisualization(selectedVisualization); setClickedRowSelected(z);">
+                        <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
+                            <span>{{selectedVisualization.name}}</span>
+                            <i style="position: absolute; right: 0; margin-right: 30px; z-index: 3;"
+                                class="fa fa-chevron-right"
+                                (click)="SelectedVisualizationRemove(selectedVisualization,$event)"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div *ngIf="LessonSelected" [@FadingHeaders]>
+                <ul>
+                    <li>
+                        <span>All Visualizations</span>
+                    </li>
+                </ul>
+                <ul style="margin: 145px auto 0">
+                    <li [@Fading] class="content-li" *ngFor="let visualization of AllVisualizationsList; let x = index"
+                        [class.active]="x == selectedRowX && fromAll"
+                        (click)="LoadVisualization(visualization); setClickedRowAll(x);">
+                        <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
+                            <i style="position: absolute; left: 0; margin-left: 30px; z-index: 3;"
+                                class="fa fa-chevron-left" (click)="SelectedVisualization(visualization,$event)"></i>
+                            <span>{{visualization.name}}</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="grid-row: 1/2; height: 55vh; outline: none;" class="backgroundas">
+        <model-viewer src="{{path}}" auto-rotate camera-controls auto-rotate magic-leap
+            style="background-color: unset; outline: none;">
+        </model-viewer>
+    </div>
+</body>

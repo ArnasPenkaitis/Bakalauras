@@ -1,0 +1,128 @@
+.formBackground{
+    background-color: rgba($color: #205C77, $alpha: 0.4);
+    border-radius: 5px;
+	padding: 20px;
+	padding-bottom: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow:  0 0 15px  rgba($color: #205C77, $alpha: 0.5);
+}
+.tableRow {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    background: #174155;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: -10 -10 10  rgba($color: #205C77, $alpha: 0.5);
+}
+
+.tableRowContent {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+}
+th {
+    color: white;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+    font-weight: normal !important;
+    padding: 10px 24px;
+    width: 100%;
+    max-width: 25%;
+}
+
+td {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 25%;
+    width: 100%;
+    padding: 10px 24px;
+    text-align: center;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+tbody tr:nth-child(even) {
+    background: rgba($color: #3087af, $alpha: 0.8);
+}
+tbody tr:nth-child(odd) {
+    background: rgba($color: #3087af, $alpha: 0.4);
+}
+tbody tr:hover{
+    background: rgb(117, 189, 219);
+}
+
+.mainTable {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: #205c77;
+    height: auto;
+    max-height: 70vh;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+}
+thead{
+    display: flex;
+    width: 100%;
+}
+tbody {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+tbody::-webkit-scrollbar {
+    width: 5px;
+    box-shadow: inset 0 0 2px #205C77;
+}
+
+tbody::-webkit-scrollbar-track {
+    border-radius: 11px;
+    box-shadow: inset 0 0 2px #205C77;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    background-color: #205C77;
+}
+.searchBox{
+    
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.searchBox::placeholder{
+    color: white;
+}
+.content-cr {
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: #3087af;
+    display: flex;
+    padding: 10px 10px;
+    margin: 5px 0;
+    transition: 0.5s;
+    color: white;
+}

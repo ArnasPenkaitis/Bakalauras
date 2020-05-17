@@ -1,0 +1,13 @@
+.formBackground{
+    background-color: rgba($color: #205C77, $alpha: 0.4);
+    border-radius: 5px;
+	padding: 20px;
+	padding-bottom: 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:  0 0 15px  rgba($color: #205C77, $alpha: 0.5);
+}

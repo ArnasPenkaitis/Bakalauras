@@ -1,0 +1,154 @@
+Date : 2020-05-02 02:50:51
+Directory : c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras
+Total : 98 files,  19141 codes, 159 comments, 781 blanks, all 20081 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          8 |     14,033 |         20 |          6 |     14,059 |
+| SCSS       |         19 |      2,340 |          7 |        366 |      2,713 |
+| TypeScript |         45 |      2,074 |        123 |        378 |      2,575 |
+| HTML       |         19 |        612 |          0 |          9 |        621 |
+| JavaScript |          2 |         53 |          8 |          4 |         65 |
+| Markdown   |          1 |         14 |          0 |         14 |         28 |
+| Properties |          1 |         12 |          1 |          4 |         17 |
+| XML        |          3 |          3 |          0 |          0 |          3 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                   |         98 |     19,141 |        159 |        781 |     20,081 |
+| e2e                                                                                                                                 |          4 |         64 |          7 |         11 |         82 |
+| e2e\src                                                                                                                             |          2 |         27 |          1 |          8 |         36 |
+| src                                                                                                                                 |         84 |      5,002 |        129 |        745 |      5,876 |
+| src\app                                                                                                                             |         74 |      4,907 |         52 |        712 |      5,671 |
+| src\app\Models                                                                                                                      |          5 |         60 |          0 |         11 |         71 |
+| src\app\Services                                                                                                                    |          7 |        239 |          5 |         53 |        297 |
+| src\app\account-edit-modal                                                                                                          |          3 |        326 |          4 |         49 |        379 |
+| src\app\accounts                                                                                                                    |          3 |        266 |          0 |         18 |        284 |
+| src\app\home                                                                                                                        |          3 |         34 |          0 |          5 |         39 |
+| src\app\home-navbar                                                                                                                 |          3 |        194 |          0 |         21 |        215 |
+| src\app\lesson-edit-modal                                                                                                           |          3 |        292 |          5 |         48 |        345 |
+| src\app\lesson-modal                                                                                                                |          4 |        317 |          4 |         55 |        376 |
+| src\app\login                                                                                                                       |          3 |        290 |          5 |         47 |        342 |
+| src\app\main                                                                                                                        |          3 |         35 |          0 |          5 |         40 |
+| src\app\main-navbar                                                                                                                 |          3 |        165 |          0 |         19 |        184 |
+| src\app\register                                                                                                                    |          3 |        336 |          4 |         44 |        384 |
+| src\app\scene                                                                                                                       |          3 |        135 |          7 |         34 |        176 |
+| src\app\subject-modal                                                                                                               |          4 |        281 |          4 |         53 |        338 |
+| src\app\subjects                                                                                                                    |          3 |        464 |          1 |         40 |        505 |
+| src\app\subjects-edit-modal                                                                                                         |          4 |        300 |          4 |         54 |        358 |
+| src\app\visualizations                                                                                                              |          3 |        275 |          0 |         26 |        301 |
+| src\app\visualizations-create-modal                                                                                                 |          3 |        354 |          5 |         49 |        408 |
+| src\app\visualizations-edit-modal                                                                                                   |          4 |        311 |          4 |         55 |        370 |
+| src\assets                                                                                                                          |          3 |          3 |          0 |          0 |          3 |
+| src\environments                                                                                                                    |          2 |          6 |         11 |          4 |         21 |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\.editorconfig                                                                  | Properties |         12 |          1 |          4 |         17 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\README.md                                                                      | Markdown   |         14 |          0 |         14 |         28 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\angular.json                                                                   | JSON       |        114 |         20 |          0 |        134 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\e2e\protractor.conf.js                                                         | JavaScript |         24 |          6 |          2 |         32 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\e2e\src\app.e2e-spec.ts                                                        | TypeScript |         18 |          1 |          5 |         24 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\e2e\src\app.po.ts                                                              | TypeScript |          9 |          0 |          3 |         12 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\e2e\tsconfig.json                                                              | JSON       |         13 |          0 |          1 |         14 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\karma.conf.js                                                                  | JavaScript |         29 |          2 |          2 |         33 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\package-lock.json                                                              | JSON       |     13,646 |          0 |          1 |     13,647 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\package.json                                                                   | JSON       |         57 |          0 |          1 |         58 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Models\Class.ts                                                        | TypeScript |         10 |          0 |          2 |         12 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Models\Student.ts                                                      | TypeScript |         16 |          0 |          2 |         18 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Models\Subject.ts                                                      | TypeScript |          8 |          0 |          2 |         10 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Models\Teacher.ts                                                      | TypeScript |         16 |          0 |          2 |         18 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Models\Visualization.ts                                                | TypeScript |         10 |          0 |          3 |         13 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\AuthInterceptor.ts                                            | TypeScript |         25 |          5 |          8 |         38 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\base.service.ts                                               | TypeScript |         38 |          0 |          5 |         43 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\hub-service.service.ts                                        | TypeScript |         61 |          0 |         11 |         72 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\lessons.service.ts                                            | TypeScript |         25 |          0 |          7 |         32 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\subjects.service.ts                                           | TypeScript |         26 |          0 |          6 |         32 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\teacher.service.ts                                            | TypeScript |         29 |          0 |          8 |         37 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\Services\visualizations.service.ts                                     | TypeScript |         35 |          0 |          8 |         43 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\account-edit-modal\account-edit-modal.component.html                   | HTML       |         57 |          0 |          0 |         57 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\account-edit-modal\account-edit-modal.component.scss                   | SCSS       |        188 |          0 |         35 |        223 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\account-edit-modal\account-edit-modal.component.ts                     | TypeScript |         81 |          4 |         14 |         99 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\accounts\accounts.component.html                                       | HTML       |         52 |          0 |          0 |         52 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\accounts\accounts.component.scss                                       | SCSS       |        121 |          0 |          7 |        128 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\accounts\accounts.component.ts                                         | TypeScript |         93 |          0 |         11 |        104 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\app-routing.module.ts                                                  | TypeScript |         24 |          0 |          4 |         28 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\app.component.html                                                     | HTML       |         11 |          0 |          1 |         12 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\app.component.scss                                                     | SCSS       |          7 |          0 |          2 |          9 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\app.component.spec.ts                                                  | TypeScript |         31 |          0 |          5 |         36 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\app.component.ts                                                       | TypeScript |         17 |          0 |          3 |         20 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\app.module.ts                                                          | TypeScript |         76 |          0 |          4 |         80 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\home-navbar\home-navbar.component.html                                 | HTML       |         22 |          0 |          1 |         23 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\home-navbar\home-navbar.component.scss                                 | SCSS       |        101 |          0 |          7 |        108 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\home-navbar\home-navbar.component.ts                                   | TypeScript |         71 |          0 |         13 |         84 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\home\home.component.html                                               | HTML       |         10 |          0 |          0 |         10 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\home\home.component.scss                                               | SCSS       |         13 |          0 |          0 |         13 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\home\home.component.ts                                                 | TypeScript |         11 |          0 |          5 |         16 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-edit-modal\lesson-edit-modal.component.html                     | HTML       |         33 |          0 |          0 |         33 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-edit-modal\lesson-edit-modal.component.scss                     | SCSS       |        188 |          0 |         36 |        224 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-edit-modal\lesson-edit-modal.component.ts                       | TypeScript |         71 |          5 |         12 |         88 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-modal\lesson-modal.component.html                               | HTML       |         33 |          0 |          0 |         33 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-modal\lesson-modal.component.scss                               | SCSS       |        190 |          0 |         36 |        226 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-modal\lesson-modal.component.spec.ts                            | TypeScript |         20 |          0 |          6 |         26 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\lesson-modal\lesson-modal.component.ts                                 | TypeScript |         74 |          4 |         13 |         91 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\login\login.component.html                                             | HTML       |         35 |          0 |          0 |         35 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\login\login.component.scss                                             | SCSS       |        185 |          0 |         33 |        218 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\login\login.component.ts                                               | TypeScript |         70 |          5 |         14 |         89 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\main-navbar\main-navbar.component.html                                 | HTML       |         20 |          0 |          1 |         21 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\main-navbar\main-navbar.component.scss                                 | SCSS       |         96 |          0 |          6 |        102 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\main-navbar\main-navbar.component.ts                                   | TypeScript |         49 |          0 |         12 |         61 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\main\main.component.html                                               | HTML       |         11 |          0 |          0 |         11 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\main\main.component.scss                                               | SCSS       |         13 |          0 |          0 |         13 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\main\main.component.ts                                                 | TypeScript |         11 |          0 |          5 |         16 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\register\register.component.html                                       | HTML       |         65 |          0 |          0 |         65 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\register\register.component.scss                                       | SCSS       |        185 |          0 |         33 |        218 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\register\register.component.ts                                         | TypeScript |         86 |          4 |         11 |        101 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\route-animations.ts                                                    | TypeScript |         67 |          0 |          7 |         74 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\scene\scene.component.html                                             | HTML       |          2 |          0 |          0 |          2 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\scene\scene.component.scss                                             | SCSS       |          4 |          0 |          0 |          4 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\scene\scene.component.ts                                               | TypeScript |        129 |          7 |         34 |        170 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subject-modal\subject-modal.component.html                             | HTML       |         21 |          0 |          0 |         21 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subject-modal\subject-modal.component.scss                             | SCSS       |        189 |          0 |         36 |        225 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subject-modal\subject-modal.component.spec.ts                          | TypeScript |         20 |          0 |          6 |         26 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subject-modal\subject-modal.component.ts                               | TypeScript |         51 |          4 |         11 |         66 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects-edit-modal\subjects-edit-modal.component.html                 | HTML       |         24 |          0 |          0 |         24 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects-edit-modal\subjects-edit-modal.component.scss                 | SCSS       |        188 |          0 |         36 |        224 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects-edit-modal\subjects-edit-modal.component.spec.ts              | TypeScript |         20 |          0 |          6 |         26 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects-edit-modal\subjects-edit-modal.component.ts                   | TypeScript |         68 |          4 |         12 |         84 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects\subjects.component.html                                       | HTML       |        100 |          0 |          2 |        102 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects\subjects.component.scss                                       | SCSS       |        100 |          0 |         10 |        110 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\subjects\subjects.component.ts                                         | TypeScript |        264 |          1 |         28 |        293 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-create-modal\visualizations-create-modal.component.html | HTML       |         35 |          0 |          1 |         36 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-create-modal\visualizations-create-modal.component.scss | SCSS       |        219 |          0 |         33 |        252 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-create-modal\visualizations-create-modal.component.ts   | TypeScript |        100 |          5 |         15 |        120 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-edit-modal\visualizations-edit-modal.component.html     | HTML       |         30 |          0 |          0 |         30 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-edit-modal\visualizations-edit-modal.component.scss     | SCSS       |        188 |          0 |         36 |        224 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-edit-modal\visualizations-edit-modal.component.spec.ts  | TypeScript |         20 |          0 |          6 |         26 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations-edit-modal\visualizations-edit-modal.component.ts       | TypeScript |         73 |          4 |         13 |         90 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations\visualizations.component.html                           | HTML       |         35 |          0 |          0 |         35 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations\visualizations.component.scss                           | SCSS       |        123 |          0 |         10 |        133 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\app\visualizations\visualizations.component.ts                             | TypeScript |        117 |          0 |         16 |        133 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\assets\undraw_certification_aif8.svg                                       | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\assets\undraw_profile_pic_ic5t.svg                                         | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\assets\vis.svg                                                             | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\environments\environment.prod.ts                                           | TypeScript |          3 |          0 |          1 |          4 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\environments\environment.ts                                                | TypeScript |          3 |         11 |          3 |         17 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\index.html                                                                 | HTML       |         16 |          0 |          3 |         19 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\main.ts                                                                    | TypeScript |          9 |          0 |          4 |         13 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\polyfills.ts                                                               | TypeScript |          1 |         55 |          8 |         64 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\styles.scss                                                                | SCSS       |         42 |          7 |         10 |         59 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\src\test.ts                                                                    | TypeScript |         18 |          4 |          4 |         26 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\tsconfig.app.json                                                              | JSON       |         14 |          0 |          1 |         15 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\tsconfig.json                                                                  | JSON       |         23 |          0 |          1 |         24 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\tsconfig.spec.json                                                             | JSON       |         18 |          0 |          1 |         19 |
+| c:\Users\Arnas\Desktop\Bakalauras\Frontas\Bakalauras\tslint.json                                                                    | JSON       |        148 |          0 |          0 |        148 |
+| Total                                                                                                                               |            |     19,141 |        159 |        781 |     20,081 |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

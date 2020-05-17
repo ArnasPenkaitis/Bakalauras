@@ -1,0 +1,24 @@
+<div class="formBackground">
+    <div class="login-content">
+        <form [formGroup]="subjectForm" (ngSubmit)="updateSubject()">
+            <img src="../../assets/undraw_certification_aif8.svg">
+            <h2 class="title" style="color: white;">Edit Subject</h2>
+            <div class="input-div one">
+                <div class="i">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="div" formGroupName="Name">
+                    <h5>Name (15 symbols)</h5>
+                    <input (focus)="inputAnimation()" formControlName="name" type="text" class="input">
+                </div>
+            </div>
+            <div *ngIf="incorrect" style="display: flex; justify-content: center; align-items: center;">
+                <h4 style="color: tomato;">Name can't be empty.</h4>
+            </div>
+            <div *ngIf="tooLong" style="display: flex; justify-content: center; align-items: center;">
+                <h4 style="color: tomato;">Name can't be more than 15 symbols.</h4>
+            </div>
+            <button type="submit" class="btn">Update</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+<body style="width: 100%;">
+    <app-home-navbar></app-home-navbar>
+    <div style="width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <div class="formBackground" style="width: 80%; justify-content: center; height: 60vh;">
+            <div class="mainTable" style="width: 100%; position: relative;">
+                <thead>
+                    <tr class="tableRow">
+                        <th style="width: 20%;">Username</th>
+                        <th style="width: 20%;">Password</th>
+                        <th style="width: 20%;">Name</th>
+                        <th style="width: 20%;">Surname</th>
+                        <th style="width: 15%;">Email</th>
+                        <th style="width: 5%;">
+                            <i style="opacity: 0; font-size: 1.2rem; margin-right: 40px; z-index: 3;"
+                                class="fa fa-edit"></i>
+                            <i style="opacity: 0; font-size: 1.2rem; z-index: 3;" class="fa fa-trash"></i>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody style="width: 100%;">
+                    <tr [@Fading] class="tableRowContent" *ngFor="let element of filteredItems; let i = index">
+                        <td style="width: 20%;">{{element.username}}</td>
+                        <td style="width: 20%;">{{element.password}}</td>
+                        <td style="width: 20%;">{{element.name}}</td>
+                        <td style="width: 20%;">{{element.surname}}</td>
+                        <td style="width: 15%;">{{element.email}}</td>
+                        <td style="width: 5%;">
+                            <i style=" font-size: 1.2rem; margin-right: 40px; z-index: 3;" class="fa fa-edit"
+                                (click)="openDialogAccountUpdate(element,$event)"></i>
+                            <i style=" font-size: 1.2rem; z-index: 3;" class="fa fa-trash"
+                                (click)="deleteAccount(element,$event)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+                <tr class="tableRow" style="border-radius: 0px; position: absolute; bottom: 0;">
+                    <th class="content-cr" style="width: 20%; padding-top: 0; padding-bottom: 0; height: 40px; margin-left: 10px;">
+                        <input class="searchBox" type="text" #myInput placeholder="Search..." (input)="filterItem(myInput.value)">
+                    </th>
+                    <th style="width: 20%;"></th>
+                    <th style="width: 20%;"></th>
+                    <th style="width: 20%;"></th>
+                    <th style="width: 15%;"></th>
+                    <th style="width: 5%;">
+                        <i style="opacity: 0; font-size: 1.2rem; margin-right: 40px; z-index: 3;"
+                            class="fa fa-edit"></i>
+                        <i style="opacity: 0; font-size: 1.2rem; z-index: 3;" class="fa fa-trash"></i>
+                    </th>
+                </tr>
+            </div>
+        </div>
+    </div>
+</body>

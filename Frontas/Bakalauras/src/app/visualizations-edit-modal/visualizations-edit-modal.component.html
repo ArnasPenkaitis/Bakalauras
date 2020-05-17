@@ -1,0 +1,30 @@
+<div class="formBackground">
+    <div class="login-content">
+        <form [formGroup]="visualizationForm" (ngSubmit)="updateVisualization()">
+            <img src="../../assets/vis.svg">
+            <h2 class="title" style="color: white; line-height: 40px;">Edit Visualization</h2>
+            <div class="input-div one">
+                <div class="i">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="div" formGroupName="Name">
+                    <h5>Name</h5>
+                    <input (focus)="inputAnimation()" formControlName="name" type="text" class="input">
+                </div>
+            </div>
+            <div class="input-div one">
+                <div class="i">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="div" formGroupName="Description">
+                    <h5>Description</h5>
+                    <input (focus)="inputAnimation()" formControlName="description" type="text" class="input">
+                </div>
+            </div>
+            <div [@Fading] *ngIf="incorrect" style="display: flex; justify-content: center; align-items: center;">
+                <h4 style="color: tomato;">Inputs can't be empty.</h4>
+            </div>
+            <button type="submit" class="btn">Update</button>
+        </form>
+    </div>
+</div>

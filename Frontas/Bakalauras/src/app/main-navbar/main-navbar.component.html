@@ -1,0 +1,21 @@
+<header>
+
+</header>
+<body>
+    <mat-toolbar>
+        <mat-toolbar-row>
+            <div style="justify-content: space-between; width: 100%; display: flex;">
+                <li routerLink="/" style="color: white; border-radius: 10px; list-style: none;"><a mat-button style="text-transform: uppercase; letter-spacing: 5px; font-size: 22px;">Bakalauras</a></li>
+            </div>
+            <ul class="navLinks">
+                <li routerLink="/login" ><a mat-button>Login</a></li>
+                <li routerLink="/register"><a mat-button>Register</a></li>
+            </ul>
+            <div class="burger" (click)="navSlide()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</body>
