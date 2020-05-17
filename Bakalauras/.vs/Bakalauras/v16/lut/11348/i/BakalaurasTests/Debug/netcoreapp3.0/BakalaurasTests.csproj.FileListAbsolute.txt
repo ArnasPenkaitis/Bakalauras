@@ -1,0 +1,15 @@
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.deps.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.runtimeconfig.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.runtimeconfig.dev.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.AssemblyInfoInputs.cache
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.AssemblyInfo.cs
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.csproj.CopyComplete
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\BakalaurasTests\Debug\netcoreapp3.0\BakalaurasTests.genruntimeconfig.cache

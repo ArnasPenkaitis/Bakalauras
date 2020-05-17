@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.bakalauras.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_loginFragment_to_teacher_list"
+            app:destination="@id/teacher_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.bakalauras.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_registerFragment_to_teacher_list"
+            app:destination="@id/teacher_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/teacher_list"
+        android:name="com.example.bakalauras.teacher_list"
+        android:label="fragment_teacher_list"
+        tools:layout="@layout/fragment_teacher_list" >
+        <action
+            android:id="@+id/action_teacher_list_to_subjects"
+            app:destination="@id/subjects" />
+    </fragment>
+    <fragment
+        android:id="@+id/lesson_list"
+        android:name="com.example.bakalauras.lesson_list"
+        android:label="fragment_lesson_list"
+        tools:layout="@layout/fragment_lesson_list" >
+        <action
+            android:id="@+id/action_lesson_list_to_visualization_list"
+            app:destination="@id/visualization_list" />
+        <action
+            android:id="@+id/action_lesson_list_to_subjects"
+            app:destination="@id/subjects" />
+    </fragment>
+    <fragment
+        android:id="@+id/visualization_list"
+        android:name="com.example.bakalauras.visualization_list"
+        android:label="fragment_visualization_list"
+        tools:layout="@layout/fragment_visualization_list" >
+        <action
+            android:id="@+id/action_visualization_list_to_lesson_list"
+            app:destination="@id/lesson_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjects"
+        android:name="com.example.bakalauras.subjects"
+        android:label="fragment_subjects"
+        tools:layout="@layout/fragment_subjects" >
+        <action
+            android:id="@+id/action_subjects_to_lesson_list"
+            app:destination="@id/lesson_list" />
+        <action
+            android:id="@+id/action_subjects_to_teacher_list"
+            app:destination="@id/teacher_list" />
+    </fragment>
+</navigation>

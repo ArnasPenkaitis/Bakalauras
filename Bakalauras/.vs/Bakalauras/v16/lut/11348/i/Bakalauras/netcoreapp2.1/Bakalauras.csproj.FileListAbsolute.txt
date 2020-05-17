@@ -1,0 +1,15 @@
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\Bakalauras.deps.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\Bakalauras.runtimeconfig.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\Bakalauras.runtimeconfig.dev.json
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\b\Bakalauras\bin\Debug\netcoreapp2.1\Bakalauras.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.RazorAssemblyInfo.cache
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.RazorAssemblyInfo.cs
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.AssemblyInfoInputs.cache
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.AssemblyInfo.cs
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.RazorTargetAssemblyInfo.cache
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.csproj.CopyComplete
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.dll
+C:\Users\Arnas\Desktop\Bakalauras\Bakalauras\.vs\Bakalauras\v16\lut\0\i\Bakalauras\netcoreapp2.1\Bakalauras.genruntimeconfig.cache
