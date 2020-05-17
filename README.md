@@ -1,1 +1,1 @@
-# Bakalauras
+# Bakalauro baigiamojo darbo repozitorija
