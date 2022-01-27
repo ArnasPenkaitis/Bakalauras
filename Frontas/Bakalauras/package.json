@@ -27,7 +27,7 @@
     "focus-visible": "^5.1.0",
     "font-awesome": "^4.7.0",
     "rxjs": "~6.5.4",
-    "three": "^0.115.0",
+    "three": "^0.137.0",
     "three-gltf-loader": "^1.111.0",
     "three-orbit-controls": "^82.1.0",
     "tslib": "^1.10.0",
